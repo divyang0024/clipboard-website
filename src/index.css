@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url(./images/bg-header-desktop.png);
+}
+
+@layer base {
+  h3 {
+    @apply text-4xl font-bold text-center text-darkGrayishBlue max-w-6xl mx-auto;
+  }
+  .headPara {
+    @apply text-2xl mt-8 mx-auto text-center text-grayishBlue max-w-6xl;
+  }
+  .snippetPara {
+    @apply text-xl mt-8 mx-auto text-center text-grayishBlue max-w-2xl;
+  }
+  h4 {
+    @apply text-2xl font-bold text-center text-darkGrayishBlue max-w-6xl mx-auto md:text-left;
+  }
+  .snippetBoolets {
+    @apply text-xl mt-1 mx-auto text-center text-grayishBlue max-w-2xl md:text-left;
+  }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
+
+@layer utilities {
+  @media (max-width: 576px) {
+    body {
+      background-image: url("../images/bg-header-mobile.png");
+    }
+  }
+}
