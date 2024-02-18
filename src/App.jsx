@@ -8,7 +8,7 @@ function App() {
     <>
       <section id="hero">
         <div className="pt-16 px-10">
-          <img src="../images/logo.svg" className="mx-auto my-16" />
+          <img src="./images/logo.svg" className="mx-auto my-16" />
           <h3>A history of everything you copy</h3>
 
           <p className="headPara">
@@ -37,7 +37,7 @@ function App() {
           <div className="flex flex-col mt-24 md:flex-row gap-12 justify-center">
             <div className="md:flex md:items-center">
               <img
-                src="../images/image-computer.png"
+                src="./images/image-computer.png"
                 className="md:relative md:left-[-20%]"
               />
             </div>
@@ -73,7 +73,7 @@ function App() {
             Whether you're on the go, or at your computer, you can access all
             your Clipboard snippets in a few simple clicks.
           </p>
-          <img src="../images/image-devices.png" className="mx-auto mt-8" />
+          <img src="./images/image-devices.png" className="mx-auto mt-8" />
         </div>
       </section>
 
@@ -87,7 +87,7 @@ function App() {
           </div>
           <div className="flex flex-col md:flex-row gap-10 md:justify-center">
             <div className="space-y-6">
-              <img src="../images/icon-blacklist.svg" className="mx-auto" />
+              <img src="./images/icon-blacklist.svg" className="mx-auto" />
               <h4 className="text-center">Create Blacklists</h4>
               <p className="snippetBoolets text-center">
                 Easily search your snippets by content, category, web address,
@@ -95,7 +95,7 @@ function App() {
               </p>
             </div>
             <div className="space-y-6">
-              <img src="../images/icon-text.svg" className="mx-auto" />
+              <img src="./images/icon-text.svg" className="mx-auto" />
               <h4 className="text-center">Plain Text Snippets</h4>
               <p className="snippetBoolets text-center">
                 Remove unwanted formatting from copied text for a consistent
@@ -103,7 +103,7 @@ function App() {
               </p>
             </div>
             <div className="space-y-6">
-              <img src="../images/icon-preview.svg" className="mx-auto" />
+              <img src="./images/icon-preview.svg" className="mx-auto" />
               <h4 className="text-center">Sneak Preview</h4>
               <p className="snippetBoolets text-center">
                 Quick preview of all snippets on your Clipboard for easy access.
@@ -114,11 +114,11 @@ function App() {
       </section>
       <section className="companies">
         <div className="px-10 my-28 flex flex-col md:flex-row items-center justify-center gap-12 flex-wrap">
-          <img src="images/logo-google.png" alt="" />
-          <img src="images/logo-ibm.png" alt="" />
-          <img src="images/logo-microsoft.png" alt="" />
-          <img src="images/logo-hp.png" alt="" />
-          <img src="images/logo-vector-graphics.png" alt="" />
+          <img src="./images/logo-google.png" alt="" />
+          <img src="./images/logo-ibm.png" alt="" />
+          <img src="./images/logo-microsoft.png" alt="" />
+          <img src="./images/logo-hp.png" alt="" />
+          <img src="./images/logo-vector-graphics.png" alt="" />
         </div>
       </section>
       <section>
@@ -142,7 +142,7 @@ function App() {
       <footer className="bg-gray-50">
         <div className="mt-28 px-10 py-10 flex flex-col md:flex-row gap-8 md:justify-between md:gap-8">
           <div>
-            <img src="../images/logo.svg" className="mx-auto w-[75px]" />
+            <img src="./images/logo.svg" className="mx-auto w-[75px]" />
           </div>
           <div className="flex flex-col md:flex-row md:flex-wrap md:items-center gap-8 md:justify-center">
             <p className="snippetBoolets ficon">FAQs</p>
