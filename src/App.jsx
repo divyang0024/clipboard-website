@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./index.css";
+import Logo from "../images/logo.svg";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,7 +9,7 @@ function App() {
     <>
       <section id="hero">
         <div className="pt-16 px-10">
-          <img src="../images/logo.svg" className="mx-auto my-16" />
+          <img src={Logo} className="mx-auto my-16" />
           <h3>A history of everything you copy</h3>
 
           <p className="headPara">
